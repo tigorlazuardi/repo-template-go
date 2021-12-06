@@ -15,6 +15,9 @@
 - `lefthook`: pre-commit and post-commit hooks
 - `prepare`: added golangci-lint installation
 
+### Fix
+- `commitlint`: fix commitlint regex
+
 
 <a name="v1.0.0"></a>
 ## v1.0.0 - 2021-12-06
