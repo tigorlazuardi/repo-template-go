@@ -1,6 +1,9 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="v1.0.2"></a>
+## [v1.0.2] - 2021-12-06
 ### Conf
 - `golangci-lint`: removed depguard and stricten cyclop complexity requirement
 
@@ -32,5 +35,6 @@
 - `commit`: initial commit
 
 
-[Unreleased]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.2...HEAD
+[v1.0.2]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.1...v1.0.2
 [v1.0.1]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.0...v1.0.1
