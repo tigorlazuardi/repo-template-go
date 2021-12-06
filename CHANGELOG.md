@@ -2,6 +2,7 @@
 ## [Unreleased]
 
 ### Feat
+- `changelog`: added changelog template
 - `lefthook`: pre-commit and post-commit hooks
 
 
