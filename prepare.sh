@@ -13,4 +13,8 @@ if ! command -v git-chglog &> /dev/null; then
 	go install github.com/git-chglog/git-chglog/cmd/git-chglog@latest
 fi
 
+if ! command -v golangci-lint &> /dev/null; then
+	go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.43.0
+fi
+
 lefthook install
