@@ -28,6 +28,6 @@ changelog:
     1_create:
       run: git-chglog -o CHANGELOG.md
     2_add:
-      run: git add CHANGELOG.md
+      run: LEFTHOOK=0 git add CHANGELOG.md
     3_commit:
-      run: git commit --amend --no-edit
+      run: LEFTHOOK=0 git commit --amend --no-edit

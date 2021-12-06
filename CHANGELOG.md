@@ -2,6 +2,7 @@
 ## [Unreleased]
 
 ### Conf
+- `lefthook`: added disabled hook for lefthook in post commit
 - `lefthook`: removed parallel in post-commit
 
 ### Feat
