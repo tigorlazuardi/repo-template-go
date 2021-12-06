@@ -3,6 +3,7 @@
 
 ### Feat
 - `changelog`: added changelog template
+- `golangci-lint`: added golang-ci-lint integration
 - `lefthook`: pre-commit and post-commit hooks
 
 
