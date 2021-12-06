@@ -1,6 +1,9 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="v1.0.1"></a>
+## [v1.0.1] - 2021-12-06
 ### Conf
 - `commitlint`: changed regex scope to accept any chars
 - `lefthook`: added back parallel on post-commit
@@ -26,4 +29,5 @@
 - `commit`: initial commit
 
 
-[Unreleased]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.1...HEAD
+[v1.0.1]: https://github.com/tigorlazuardi/repo-template-go/compare/v1.0.0...v1.0.1
