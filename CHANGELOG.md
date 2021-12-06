@@ -1,6 +1,9 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+### Conf
+- `lefthook`: removed parallel in post-commit
+
 ### Feat
 - `changelog`: added changelog template
 - `golangci-lint`: added golang-ci-lint integration

@@ -18,7 +18,6 @@ commit-msg:
       run: go test -v ./...
 
 post-commit:
-  parallel: true
   commands:
     changelog:
       run: lefthook run changelog
