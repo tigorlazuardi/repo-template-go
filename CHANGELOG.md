@@ -2,6 +2,7 @@
 ## [Unreleased]
 
 ### Conf
+- `commitlint`: changed regex scope to accept any chars
 - `lefthook`: added back parallel on post-commit
 - `lefthook`: added disabled hook for lefthook in post commit
 - `lefthook`: removed parallel in post-commit

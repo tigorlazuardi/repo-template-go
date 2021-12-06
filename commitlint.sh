@@ -3,7 +3,7 @@
 types="build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|conf|breaking"
 
 # Create a regex for a conventional commit.
-convetional_commit_regex="^($types)(\(\w+\))?!?: .+$"
+convetional_commit_regex="^($types)(\(.+\))?!?: .+$"
 
 # Get the commit message.
 commit_message=$(cat "$1")
