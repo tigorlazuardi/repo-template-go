@@ -6,6 +6,9 @@
 - `lefthook`: added disabled hook for lefthook in post commit
 - `lefthook`: removed parallel in post-commit
 
+### Docs
+- added readme.md
+
 ### Feat
 - `changelog`: added changelog template
 - `golangci-lint`: added golang-ci-lint integration
