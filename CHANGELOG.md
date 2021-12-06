@@ -1,6 +1,9 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+### Conf
+- `golangci-lint`: removed depguard and stricten cyclop complexity requirement
+
 
 <a name="v1.0.1"></a>
 ## [v1.0.1] - 2021-12-06

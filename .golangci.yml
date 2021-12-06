@@ -43,19 +43,10 @@ linters:
     - godot
     - whitespace
 
-    # ban hammer
-    - depguard
-
 linters-settings:
   cyclop:
-    max-complexity: 15
+    max-complexity: 10
     skip-tests: true
-  depguard:
-    list-type: blacklist
-    include-go-root: false
-    packages-with-error-message:
-      - log: "logging is allowed only by logger"
-      - github.com/backend/logging: "logging library is deprecated. use logger instead"
 
 issues:
   fix: true
