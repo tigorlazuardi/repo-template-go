@@ -3,19 +3,22 @@ pre-commit:
   commands:
     generate-mock:
       glob: "*.{go}"
-      run: mockery --all --keep-tree && git add mocks/*
+      run: echo {staged_files} >/dev/null && mockery --all --keep-tree && git add mocks/*
     lint_and_format:
       glob: "*.{go}"
-      run: golangci-lint && git add {files}
-  
+      run: golangci-lint && git add {staged_files}
+
 commit-msg:
   parallel: true
   commands:
     commitlint:
       run: bash commitlint.sh {1}
+      skip:
+        - merge
+        - rebase
     test:
       glob: "*.{go}"
-      run: go test -v ./...
+      run: echo {staged_files} >/dev/null && go test -v ./...
 
 post-commit:
   parallel: true
